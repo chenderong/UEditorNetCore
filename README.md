@@ -5,8 +5,11 @@
 百度在线编辑器UEditor在ASP.NET Core下的服务端，使用简单，易于扩展。
 关于UEditorNetCore
 百度在线编辑器UEditor在ASP.NET Core下的服务端，使用简单，易于扩展。
+<br/>
 相关文章：http://www.cnblogs.com/durow/p/6116393.html
-UEditor官网：http://ueditor.baidu.com/website/index.html  
+<br/>
+UEditor官网：http://ueditor.baidu.com/website/index.html
+<br/>
 UEditor源代码：https://github.com/fex-team/ueditor    
 
 使用
@@ -28,7 +31,6 @@ public class UEditorController : Controller
     {
         this.ue = ue;
     }
-
     public void Do()
     {
         ue.DoAction(HttpContext);
